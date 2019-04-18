@@ -1,0 +1,121 @@
+.sGonderi {
+    background: #FFFFFF;
+    padding: 5px;
+    font-family: Arial, Tahoma, Liberation Sans,DejaVu Sans,'Trebuchet MS',sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+    .sGonderi table {
+        border: solid 1px #ccc;
+        width: auto;
+    }
+
+    .sGonderi td {
+        padding: 4px;
+        margin: 0px;
+        border: solid 1px #ccc;
+    }
+
+    .sGonderi pre {
+        padding: 8px;
+        line-height: 100%;
+        border: solid 1px silver;
+        border-left-width: 5px;
+        font-family: Consolas, Courier New, Courier, monospace;
+        overflow: auto;
+        font-size:13px;
+        line-height:140%;
+    }
+
+    .sGonderi .sSatirIciKod {
+        font-family:'Courier New';
+        background-color:#eeeeee;
+        color:black;
+        display:inline;
+        margin-left:1px;margin-right:1px;
+    }
+    .sGonderi blockquote {
+        padding: 6px;
+        margin-left: 10px;
+        line-height: 100%;
+        border: solid 1px #ffd800;
+        border-left-width: 5px;
+        background-color: #f7efc0;
+        font-family: Consolas, Courier New, Courier, monospace;
+        max-height: 300px;
+    }
+    .sGonderi iframe {
+        border-width:0px;
+        border-top:solid 1px #eeeeee;
+        border-bottom:solid 1px #eeeeee;
+        width:100%;
+    }
+    .sGonderi .blockContPre {
+        padding: 5px;
+        margin: 0px;
+        background-color: transparent;
+        background-color: #f7efc0;
+        font-family: Consolas, Courier New, Courier, monospace;
+        border: solid 1px #ffd800;
+        border-left-width:5px;
+        white-space:pre-wrap;
+    }
+    /*
+    .sGonderi img {
+        width: auto !important;
+        height: auto !important;
+    }
+    */
+    .sGonderi a {
+        color: #2e73ef;
+        text-decoration: none;
+    }
+
+        .sGonderi a:hover {
+            text-decoration: underline;
+        }
+
+.sRteDiv {
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px silver;
+    position: relative;
+    padding-top: 20px;
+}
+
+.sRteAracCubugu {
+    border-bottom: solid 1px gray;
+    padding: 4px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 772px;
+    background-color: white;
+    
+}
+
+.sRteFrame {
+    width: 100%;
+    border: 0px;
+}
+
+.sRteArac {
+}
+.sEditorTusu {
+    display:inline-block;
+    width:25px;
+    height:25px;
+    background-image:url(/resimler/EditorTuslari.png);
+    background-repeat:no-repeat;
+    border:solid 1px white;
+    border-radius:3px;
+}
+.sEditorTusu:hover {
+    border: solid 1px silver;
+}
+
+.dvSoruIc {
+    min-height:150px;
+}

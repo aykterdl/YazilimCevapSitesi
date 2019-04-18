@@ -1,0 +1,131 @@
+.eotTablar {
+    background-color:#ffffff;
+}
+.eotTab {
+    overflow:auto;
+    border-top-left-radius:0px;
+    clear:both;
+    border-top:solid 1px silver;
+}
+.eotBasliklar {
+    list-style-type:none;
+    font-family:Arial;
+    font-size:14px;
+    margin:0px;
+    padding:0px;
+}
+.eotBasliklar .eotBaslik {
+    float:left;
+    margin:0px;
+    margin-right:4px;
+    margin-top:1px; 
+    padding:8px;
+    padding-bottom:6px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    cursor:pointer;
+    text-align:center;  
+}
+.eotPasifBaslik {
+    position:relative;
+    top:2px;
+    border:solid 1px silver;
+    background-color:white;
+    color:gray
+}
+.eotAktifBaslik {
+    position:relative;
+    top:2px;
+    border:solid 1px silver;
+    border-bottom-width:0px;
+    border-top:solid 3px #ff6a00;
+    background-color:white;
+    color:#0094ff;
+    top:1px;
+}
+
+/* Basit Tablar */
+.stlSoruTablari {
+    clear: both;
+    text-align: right;
+    margin-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 42px;
+}
+
+    .dvAnaTablar {
+        list-style-type:none;
+        margin:0px;
+        padding:0px;
+        font-size:18px;
+        overflow:hidden;
+        display:inline-block;
+    }
+    .dvAnaTablar a {
+        color:gray; 
+    }
+    .dvAnaTablar li {
+        display:inline-block;
+        padding:5px;
+        margin:0px;
+        text-align:center;
+    }
+    .stlPasifTab {
+        border:solid 1px white;
+        border-bottom:solid 1px silver;
+        border-top:solid 3px white;
+        border-right-width:0px;
+    }
+    .stlAktifTab {
+        border:solid 1px silver;
+        border-bottom:solid 1px white;
+        border-top:solid 3px #0094ff;
+        border-top-left-radius:4px;
+        border-top-right-radius:4px;
+    }
+    .stlAktifTab a {
+        color:#ff6a00;
+        display:inline-block;
+        margin-left:5px;
+        margin-right:5px;
+        font-weight:bold;
+    }
+    .stlPasifTab a {
+        color:black;
+        display:inline-block;
+        margin-left:5px;
+        margin-right:5px;
+    }
+
+    .stlTabKaydirmaSol {
+        position:absolute;
+        display:inline-block;
+        left:0px;
+        top:0px;
+        width:20px;
+        height:30px;
+        color:white;
+        background-color:#0094ff;
+        border-radius:3px;
+        color:white;
+        font-weight:bold;
+        font-size:22px;
+        text-align:center;
+    }
+    .stlTabKaydirmaSag {
+        position:absolute;
+        display:inline-block;
+        right:0px;
+        top:0px;
+        width:20px;
+        height:30px;
+        color:white;
+        background-color:#0094ff;
+        border-radius:3px;
+        color:white;
+        font-weight:bold;
+        font-size:22px;
+        text-align:center;
+    }
+/* Basit Tablar Sonu */
